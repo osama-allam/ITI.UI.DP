@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.Observer.EventHandler", "ITI.UI.DP.Observer\ITI.UI.DP.Observer.EventHandler.csproj", "{C509664E-9572-497C-9DD4-5B34980F5BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.Observer.EventHandler", "ITI.UI.DP.Observer\ITI.UI.DP.Observer.EventHandler.csproj", "{C509664E-9572-497C-9DD4-5B34980F5BD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.Observer.Stock", "ITI.UI.DP.Observer.Stock\ITI.UI.DP.Observer.Stock.csproj", "{CACE1070-3752-46BC-9CD7-D74B438B2747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.Observer.Stock", "ITI.UI.DP.Observer.Stock\ITI.UI.DP.Observer.Stock.csproj", "{CACE1070-3752-46BC-9CD7-D74B438B2747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.BankAccount", "ITI.UI.DP.BankAccount\ITI.UI.DP.BankAccount.csproj", "{95E498BF-2E7A-4747-8B74-422A91545FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.BankAccount", "ITI.UI.DP.BankAccount\ITI.UI.DP.BankAccount.csproj", "{95E498BF-2E7A-4747-8B74-422A91545FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.Iterator", "ITI.UI.DP.Iterator\ITI.UI.DP.Iterator.csproj", "{F98A06AF-7196-47D9-8A5D-7604AF88BA4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.Iterator", "ITI.UI.DP.Iterator\ITI.UI.DP.Iterator.csproj", "{F98A06AF-7196-47D9-8A5D-7604AF88BA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.CoR.ExceptionHandling", "ITI.UI.DP.ChainOfResponsibility\ITI.UI.DP.CoR.ExceptionHandling.csproj", "{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.CoR.GenericImplementation", "ITI.UI.DP.CoR.GenericImplementation\ITI.UI.DP.CoR.GenericImplementation.csproj", "{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{F98A06AF-7196-47D9-8A5D-7604AF88BA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F98A06AF-7196-47D9-8A5D-7604AF88BA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F98A06AF-7196-47D9-8A5D-7604AF88BA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
