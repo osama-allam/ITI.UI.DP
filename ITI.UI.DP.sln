@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.CoR.ExceptionHand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.CoR.GenericImplementation", "ITI.UI.DP.CoR.GenericImplementation\ITI.UI.DP.CoR.GenericImplementation.csproj", "{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.FacadeResturant", "ITI.UI.DP.FacadeResturant\ITI.UI.DP.FacadeResturant.csproj", "{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
