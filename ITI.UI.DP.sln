@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.BankAccount", "IT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.Iterator", "ITI.UI.DP.Iterator\ITI.UI.DP.Iterator.csproj", "{F98A06AF-7196-47D9-8A5D-7604AF88BA4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.CoR.ExceptionHandling", "ITI.UI.DP.ChainOfResponsibility\ITI.UI.DP.CoR.ExceptionHandling.csproj", "{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.CoR.ExceptionHandling", "ITI.UI.DP.ChainOfResponsibility\ITI.UI.DP.CoR.ExceptionHandling.csproj", "{DFFA817E-FD1F-45CB-8908-3B8EC577F6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.CoR.GenericImplementation", "ITI.UI.DP.CoR.GenericImplementation\ITI.UI.DP.CoR.GenericImplementation.csproj", "{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.CoR.GenericImplementation", "ITI.UI.DP.CoR.GenericImplementation\ITI.UI.DP.CoR.GenericImplementation.csproj", "{F12F8D9A-D7F2-4D23-B1BB-37D3B8316075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.FacadeResturant", "ITI.UI.DP.FacadeResturant\ITI.UI.DP.FacadeResturant.csproj", "{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.FacadeResturant", "ITI.UI.DP.FacadeResturant\ITI.UI.DP.FacadeResturant.csproj", "{4CD3E88C-CFFA-4EC8-A22A-01C3FC5FA7F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.PeopleViewer", "ITI.UI.DP.PeopleFactory\ITI.UI.DP.PeopleViewer.csproj", "{98B1FFF6-8788-461B-894A-EEBA637167E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.UI.DP.PeopleViewer", "ITI.UI.DP.PeopleFactory\ITI.UI.DP.PeopleViewer.csproj", "{98B1FFF6-8788-461B-894A-EEBA637167E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoR", "CoR", "{3BEFADC8-9706-4FAB-A9A6-2FDE9EEDFB41}"
 EndProject
@@ -33,15 +33,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{DB69
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSources", "DataSources", "{94029795-A94E-4CE2-A240-7EB9C71F7D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReponsitory.CSV", "PersonReponsitory.CSV\PersonReponsitory.CSV.csproj", "{F7425AA6-FD31-4ED9-9D0E-150C40F6530A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReponsitory.CSV", "PersonReponsitory.CSV\PersonReponsitory.CSV.csproj", "{F7425AA6-FD31-4ED9-9D0E-150C40F6530A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.SQL", "PersonRepository.SQL\PersonRepository.SQL.csproj", "{1F8C4D7B-70C6-4DE1-B179-34B19AD7593B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.SQL", "PersonRepository.SQL\PersonRepository.SQL.csproj", "{1F8C4D7B-70C6-4DE1-B179-34B19AD7593B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Service", "PersonRepository.Service\PersonRepository.Service.csproj", "{60842E23-074E-45E4-A06C-17EE8D579973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRepository.Service", "PersonRepository.Service\PersonRepository.Service.csproj", "{60842E23-074E-45E4-A06C-17EE8D579973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonReponsitory.Domain", "PersonReponsitory.Domain\PersonReponsitory.Domain.csproj", "{F6ABD873-5A2A-491E-8A1F-27C225A02384}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonReponsitory.Domain", "PersonReponsitory.Domain\PersonReponsitory.Domain.csproj", "{F6ABD873-5A2A-491E-8A1F-27C225A02384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.PeopleFactory", "Factory.PeopleFactory\Factory.PeopleFactory.csproj", "{9F2E91AA-8B03-4ACD-9739-846997A49DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.PeopleFactory", "Factory.PeopleFactory\Factory.PeopleFactory.csproj", "{9F2E91AA-8B03-4ACD-9739-846997A49DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{973DC673-E751-4221-9C92-0AC4D96E5CE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{07C0120D-D5F0-4CEA-89A2-86F36725834D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.UI.DP.HTMLBuilder", "ITI.UI.DP.HTMLBuilder\ITI.UI.DP.HTMLBuilder.csproj", "{955F11A8-1DAE-4522-8532-17EF1DF44C7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +107,10 @@ Global
 		{9F2E91AA-8B03-4ACD-9739-846997A49DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F2E91AA-8B03-4ACD-9739-846997A49DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F2E91AA-8B03-4ACD-9739-846997A49DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955F11A8-1DAE-4522-8532-17EF1DF44C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955F11A8-1DAE-4522-8532-17EF1DF44C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955F11A8-1DAE-4522-8532-17EF1DF44C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955F11A8-1DAE-4522-8532-17EF1DF44C7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +130,7 @@ Global
 		{60842E23-074E-45E4-A06C-17EE8D579973} = {94029795-A94E-4CE2-A240-7EB9C71F7D42}
 		{F6ABD873-5A2A-491E-8A1F-27C225A02384} = {94029795-A94E-4CE2-A240-7EB9C71F7D42}
 		{9F2E91AA-8B03-4ACD-9739-846997A49DC5} = {94029795-A94E-4CE2-A240-7EB9C71F7D42}
+		{955F11A8-1DAE-4522-8532-17EF1DF44C7D} = {973DC673-E751-4221-9C92-0AC4D96E5CE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D79366E6-0348-4FCD-9651-14ABBB6A0D2B}
